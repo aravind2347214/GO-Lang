@@ -1,0 +1,47 @@
+1. Case Study: Temperature Converter
+Problem Statement:
+You are tasked with creating a temperature converter program in Go. The program should allow users to convert temperatures between Celsius, Fahrenheit, and Kelvin.
+
+1. Celsius to Fahrenheit
+2. Fahrenheit to Celsius
+3. Celsius to Kelvin
+4. Kelvin to Celsius
+5. Fahrenheit to Kelvin
+6. Kelvin to Fahrenheit
+
+2.Use Switch case for branching 
+Create User defined functions for every conversion ( 6 User Defined Function)
+Case Study: Scientific Calculator
+Problem Statement:
+Develop a Scientific calculator program in Go that performs 
+
+1. Addition (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+5. Exponentiation (x^y)
+6. Square root (√x)
+
+Use Switch case for branching
+Use Printf function to print with types
+
+
+3.Case Study: Online Bookstore Inventory Checker
+Problem Statement:
+You're tasked with creating a program for an online bookstore to check the inventory of books. 
+The program should allow users to search for books by title and display whether the book is available in the inventory or not.
+Create a struct named Book with title and availability (boolean)
+Create a map named Inventory with Book title as key and availability (boolean) as value
+Check the availability with if condition and print whether the book is available or not
+
+4. Case Study: Student Grade Calculator
+
+Problem Statement:
+You're tasked with creating a program to calculate the final grades of students based on their scores in multiple subjects. 
+The program should allow users to input scores for each subject, calculate the average score, and assign grades based on predefined grading criteria.
+
+Use scanIn, Printf, loops, maps
+
+
+
+
