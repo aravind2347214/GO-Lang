@@ -8,12 +8,8 @@ import (
 	"strings"
 )
 
-// type MenuItem struct {
-// 	name   string
-// 	prices map[string]float64
-// }
-
 func main() {
+	menu := conditionals.NewMenu()
 
 loop:
 	for {
@@ -21,13 +17,14 @@ loop:
 		fmt.Println("1) Print menu")
 		fmt.Println("2) Add Item")
 		fmt.Println("q) Quit")
+
 		in := bufio.NewReader(os.Stdin)
 		choice, _ := in.ReadString('\n')
 		switch strings.TrimSpace(choice) {
 		case "1":
-			conditionals.PrintMenu()
+			menu.PrintMenu()
 		case "2":
-			conditionals.AddItem()
+			menu.AddItem()
 		case "q":
 			break loop
 		default:
