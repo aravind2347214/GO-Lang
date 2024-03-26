@@ -169,7 +169,7 @@ func main() {
 		}
 
 		// Perform tasks on animals.
-		err := farmManager. (task, animalName)
+		err := farmManager.PerformTaskOnFarm(task, animalName)
 		if err != nil {
 			fmt.Println("Error:", err)
 		}
