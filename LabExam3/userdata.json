@@ -1,0 +1,36 @@
+{
+  "Ram": {
+    "Username": "Ram",
+    "StepCounts": [
+      [
+        80
+      ],
+      [
+        20
+      ],
+      [
+        60
+      ]
+    ],
+    "Goals": [
+      100
+    ]
+  },
+  "Sam": {
+    "Username": "Sam",
+    "StepCounts": [
+      [
+        100
+      ],
+      [
+        50
+      ],
+      [
+        20
+      ]
+    ],
+    "Goals": [
+      100
+    ]
+  }
+}
